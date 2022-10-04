@@ -39,10 +39,18 @@
        text-align: center;
 
        }
-       /*div.front{
-        position:relative;
-       }*/
-       img{
+       div.front{
+        position: relative;
+       }
+       table.info{
+        position: absolute;
+        bottom:0;
+        width: 100%;
+        background-color: #8BA1BBCC;
+        color:white;
+        height:80px;
+       }
+       img.info{
         width: 100%;
        }
        
@@ -68,7 +76,21 @@
     <p class="description centre"> Ce plat de crevettes est une spécialité des peuples de la côte du cameroun</p>
     </div>
     <div class="front">
-    <img src="plat.jpg" alt="">
+    <img src="plat.jpg" alt="" class="info">
+    <table class="centre info">
+        <tr>
+        <th>Difficulté</th>
+        <th>Préparation</th>
+        <th>Cuisson</th>
+        <th>Temps total</th>
+        </tr>
+    <tr>
+        <th>facile</th>
+        <th>10 min</th>
+        <th>25 min</th>
+        <th>35 min</th>
+    </tr>
+    </table>
 </div>
 </section>
 <section>
@@ -83,8 +105,8 @@
 <h2>Préparation</h2>
 <ul>
     <li>Découper les pommes en fines lamelles</li>
-    <li>Faire cuir eles pommes à l'huile dans une poele</li>
-    <li>Faire cuire les crevetts à la poêle</li>
+    <li>Faire cuire les pommes à l'huile dans une poele</li>
+    <li>Faire cuire les crevettes à la poêle</li>
     <li>Mélanger la tomate aux oignons</li>
     <li>Mélanger le tout dans la poêle des crevettes</li>
 </ul>
